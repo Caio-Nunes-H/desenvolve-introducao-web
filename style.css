@@ -1,28 +1,14 @@
-a { 
-    color:red; 
+/* Color Theme Swatches in Hex */
+/*
+.Inspiring-illustration-2023-1-hex { color: #03588C; }
+.Inspiring-illustration-2023-2-hex { color: #025939; }
+.Inspiring-illustration-2023-3-hex { color: #0ABF04; }
+.Inspiring-illustration-2023-4-hex { color: #D7F205; }
+.Inspiring-illustration-2023-5-hex { color: #400101; }
+*/ 
+
+html {
+    background: #D2E8E3  ; 
+    color:#1E232E ;
 }
 
-a:hover { 
-    color:lime; 
-     
-}
-
-p { 
-    font-family: 'Arial';
-}
-
-h1 + p { 
-    font-weight: bold;
-}
-
-.destaque {
-    font-family: Arial;
-}
-
-p.destaque { 
-    font-weight: bold;
-}
-
-strong.destaque {
-    color:red; 
-}
