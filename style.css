@@ -7,10 +7,46 @@
 .Inspiring-illustration-2023-5-hex { color: #400101; }
 */ 
 
+.supporting footer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+
+.benefits {
+	display: flex;
+	border-top: #D2E8E3 solid 1px;
+	border-bottom: #D2E8E3 solid 1px;
+}
+.benefits p {
+	flex-basis: 70%;
+}
+.benefits h3 {
+	order: 2;
+	align-self: center;
+	flex-basis: 30%;
+}
+
+
+.participation {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: #1E232E solid 1px;
+}
+.participation h3, .participation p {
+	flex-basis: 50%;
+}
+.participation h3 {
+	align-self: center;
+}
+
+
+
 
 .explanation {
 	width: 60%;
-	border-right: #1f295c solid 1px;
+	border-right: #1E232E solid 1px;
 	padding-right: 2%;
 }
 
