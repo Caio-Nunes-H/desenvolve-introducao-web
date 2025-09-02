@@ -7,6 +7,31 @@
 .Inspiring-illustration-2023-5-hex { color: #400101; }
 */ 
 
+a { 
+	color: #575;
+}
+
+a:hover {
+   color: rgb(8, 221, 72)
+}
+
+a:visited {
+	font-style: italic;
+	color: #ff15000a;
+}
+
+.main p:first-of-type::first-letter {
+	font-size: 3em;
+	font-family: 'Times New Roman', Times, serif;
+	float: left;
+}
+
+.design-selection li {
+	border-top: #1E232E solid 1px;
+	padding-top: 5px;
+}
+
+
 .supporting footer {
 	display: flex;
 	justify-content: space-evenly;
